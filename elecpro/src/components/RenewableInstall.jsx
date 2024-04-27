@@ -57,7 +57,7 @@ const RenewableInstall = () => {
         />
         <Dropdown
           title="Year"
-          options={["2019", "2020", "2021", "2022", "2023"]}
+          options={["2019", "2020", "2021", "2022"]}
           category={handleYearChange}
         />
       </div>

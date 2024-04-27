@@ -54,7 +54,6 @@ const PowerGen = () => {
             "Odisha",
             "Sikkim",
             "West Bengal",
-            "Chhatisgarh",
             "Goa",
             "Gujarat",
             "Madhya Pradesh",
