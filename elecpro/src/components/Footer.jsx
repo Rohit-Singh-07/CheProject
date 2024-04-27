@@ -15,10 +15,11 @@ const Footer = () => {
             About <br />US
         </div>
         </Link>
+        <a href="https://github.com/Rohit-Singh-07/CheProject" target="_blank" rel="noopener noreferrer">
         <div className='h-[12vw] w-[12vw] bg-zinc-800 flex justify-center items-center text-[1.8vw] rounded-br-xl rounded-tl-xl shadow-[19px_22px_3px_3px_#2d3748]' >
             Project <br />Link
-        </div>
-      </div>
+        </div></a> 
+           </div>
     </div>
   )
 }
