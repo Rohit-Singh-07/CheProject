@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "../utils/axios";
 import Dropdown from "./Dropdown";
 import anyrgb from "../assets/anyrgb.com.png";

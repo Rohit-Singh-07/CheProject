@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "../utils/axios";
-import anyrgb from "../assets/anyrgb.com.png";
 import detailbg from "../assets/detailbg.mp4";
 import LoadingAni from "../partials/LoadingAni";
 
@@ -40,39 +39,57 @@ const Growth = () => {
               >
                 <div>
                   <div>
-                    <span className="text-amber-600 font-semibold">As &nbsp; on &nbsp;: &nbsp;</span>
+                    <span className="text-amber-600 font-semibold">
+                      As &nbsp; on &nbsp;: &nbsp;
+                    </span>
                     {e.as_on} MV
                   </div>
                   <div>
-                    <span className="text-amber-600 font-semibold">Coal &nbsp;: &nbsp;</span>
+                    <span className="text-amber-600 font-semibold">
+                      Coal &nbsp;: &nbsp;
+                    </span>
                     {e.coal} MV
                   </div>
                   <div>
-                    <span className="text-amber-600 font-semibold">Gas &nbsp;: &nbsp;</span>
+                    <span className="text-amber-600 font-semibold">
+                      Gas &nbsp;: &nbsp;
+                    </span>
                     {e.gas} MV
                   </div>
                   <div>
-                    <span className="text-amber-600 font-semibold">Diesel &nbsp;: &nbsp;</span>
+                    <span className="text-amber-600 font-semibold">
+                      Diesel &nbsp;: &nbsp;
+                    </span>
                     {e.diesel} MV
                   </div>
                   <div>
-                    <span className="text-amber-600 font-semibold">Hydro &nbsp;: &nbsp;</span>
+                    <span className="text-amber-600 font-semibold">
+                      Hydro &nbsp;: &nbsp;
+                    </span>
                     {e.hydro} MV
                   </div>
                   <div>
-                    <span className="text-amber-600 font-semibold">nuclear &nbsp;: &nbsp;</span>
+                    <span className="text-amber-600 font-semibold">
+                      nuclear &nbsp;: &nbsp;
+                    </span>
                     {e.nuclear} MV
                   </div>
                   <div>
-                    <span className="text-amber-600 font-semibold">Renewable &nbsp;: &nbsp;</span>
+                    <span className="text-amber-600 font-semibold">
+                      Renewable &nbsp;: &nbsp;
+                    </span>
                     {e.res} MV
                   </div>
                   <div>
-                    <span className="text-amber-600 font-semibold">Thermal &nbsp;: &nbsp;</span>
+                    <span className="text-amber-600 font-semibold">
+                      Thermal &nbsp;: &nbsp;
+                    </span>
                     {e.thermal_total} MV
                   </div>
                   <div>
-                    <span className="text-amber-600 font-semibold">Total &nbsp;: &nbsp;</span>
+                    <span className="text-amber-600 font-semibold">
+                      Total &nbsp;: &nbsp;
+                    </span>
                     {e.grand_total} MV
                   </div>
                 </div>

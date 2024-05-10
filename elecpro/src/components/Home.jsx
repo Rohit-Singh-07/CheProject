@@ -1,4 +1,4 @@
-import React from 'react';
+
 import HomeHero from '../partials/HomeHero';
 import HomePage2 from '../partials/HomePage2';
 import Footer from './Footer';

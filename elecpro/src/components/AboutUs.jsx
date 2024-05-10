@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Suyash from '../assets/Suyash.jpg'
 import Rohitpic from '../assets/Rohitpic.jpg'
 import detailbg from "../assets/detailbg.mp4";

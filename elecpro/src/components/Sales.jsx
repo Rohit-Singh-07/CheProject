@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "../utils/axios";
 import Dropdown from "./Dropdown";
 import anyrgb from "../assets/anyrgb.com.png";
@@ -14,11 +14,6 @@ const Sales = () => {
     const handleStateChange = (e) => {
       const selectedCategory = e.target.value;
       setState(selectedCategory);
-    };
-  
-    const handleMonthChange = (e) => {
-      const selectedCategory = e.target.value;
-      setMonth(selectedCategory);
     };
   
     const handleYearChange = (e) => {
